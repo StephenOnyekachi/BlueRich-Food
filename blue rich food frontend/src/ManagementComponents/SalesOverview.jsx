@@ -770,9 +770,18 @@ function SalesOverview() {
                   </div>
                 )}
 
-                {!selectedItem && (
+                {selectedItem ? (
                   <button
                     type="submit"
+                    disabled={!saleQuantity}
+                    className="mt-4 w-full rounded-xl bg-slate-950 px-5 py-3 text-sm font-semibold text-white transition hover:bg-slate-800 disabled:cursor-not-allowed disabled:bg-slate-300 disabled:text-slate-500 sm:w-auto"
+                  >
+                    <Plus className="mr-2 inline-block h-4 w-4" />
+                    Add Sale
+                  </button>
+                ) : (
+                  <button
+                    type="button"
                     disabled
                     className="mt-4 w-full rounded-xl bg-slate-200 px-5 py-3 text-sm font-semibold text-slate-400 sm:w-auto"
                   >
