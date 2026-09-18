@@ -1,0 +1,204 @@
+
+
+@import "tailwindcss";
+
+/* ==============================
+  NAVIGATION LINKS
+================================ */
+
+/* .nav-link {
+  position: relative;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+
+  color: rgb(156 163 175);
+
+  font-size: 1rem;
+  line-height: 1.5rem;
+
+  transition-property: color, transform;
+  transition-duration: 300ms;
+  transition-timing-function: ease;
+}
+
+.nav-link:hover {
+  color: white;
+} */
+
+
+/* ==============================
+  ACTIVE / HOVER UNDERLINE
+================================ */
+
+/* .nav-link::after {
+  content: "";
+
+  position: absolute;
+
+  left: 50%;
+  bottom: 0;
+
+  width: 0;
+  height: 2px;
+
+  background-color: rgb(34 197 94);
+
+  transform: translateX(-50%);
+
+  transition-property: width;
+  transition-duration: 300ms;
+  transition-timing-function: ease;
+}
+
+.nav-link:hover::after {
+  width: 75%;
+} */
+
+/* ==============================
+  MOBILE NAVIGATION LINKS
+================================ */
+
+/* .mobile-nav-link {
+  color: white !important;
+  display: block;
+  padding: 0.75rem 1rem;
+  transition: color 300ms ease;
+}
+
+.mobile-nav-link:hover {
+  color: rgb(34 197 94) !important;
+} */
+
+
+/* ==============================
+  FONTS CONFIGURATION
+================================ */
+
+@font-face {
+  font-family: "Roboto Condensed";
+  src: url("./fonts/Roboto_Condensed-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Roboto Condensed Light";
+  src: url("./fonts/Roboto_Condensed-Light.ttf") format("truetype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Roboto Condensed Bold";
+  src: url("./fonts/Roboto_Condensed-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Roboto Condensed Italic";
+  src: url("./fonts/Roboto_Condensed-Italic.ttf") format("truetype");
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Bebas Neue";
+  src: url("./fonts/BebasNeue-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Archivo Black";
+  src: url("./fonts/ArchivoBlack-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Playwrite NZ";
+  src: url("./fonts/PlaywriteNZ-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Playwrite NZ Light";
+  src: url("./fonts/PlaywriteNZ-Light.ttf") format("truetype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Playwrite NZ ExtraLight";
+  src: url("./fonts/PlaywriteNZ-ExtraLight.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Playwrite NZ Thin";
+  src: url("./fonts/PlaywriteNZ-Thin.ttf") format("truetype");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto Condensed", sans-serif;
+  /* position: ; */
+}
+
+/* Hide horizontal scrollbar */
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.roboto-condensed {
+  font-family: "Roboto Condensed", sans-serif;
+}
+.roboto-condensed-light {
+  font-family: "Roboto Condensed Light", sans-serif;
+  letter-spacing: 0.5px;
+  text-transform: capitalize;
+}
+.roboto-condensed-bold {
+  font-family: "Roboto Condensed Bold", sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.roboto-condensed-italic {
+  font-family: "Roboto Condensed Italic", sans-serif;
+  letter-spacing: 0.5px;
+  text-transform: capitalize;
+}
+
+.bebas-neue {
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.archivo-black {
+  font-family: "Archivo Black", sans-serif;
+}
+
+.playwrite-nz {
+  font-family: "Playwrite NZ", sans-serif;
+}
+.playwrite-nz-light {
+  font-family: "Playwrite NZ Light", sans-serif;
+}
+.playwrite-nz-extraLight {
+  font-family: "Playwrite NZ ExtraLight", sans-serif;
+}
+.playwrite-nz-thin {
+  font-family: "Playwrite NZ Thin", sans-serif;
+}
+.top {
+  padding-top: 100px
+}
+
+@import "tailwindcss";
